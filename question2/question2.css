@@ -1,0 +1,42 @@
+/*
+
+- Create a card UI similar to the image using HTML and CSS
+- It doesn't need to be an exact replica
+- You can use any name, photo, URL
+
+*/
+.container {
+  padding: 16px;
+  background-color: white;
+  display: flex;
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+  justify-content: space-between;
+  justify-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name {
+  font-size: 25px;
+  font: bold;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.link {
+  font-size: 18px;
+}
+
+.image {
+  border-radius: 9999px;
+  border: 5px solid black;
+}
